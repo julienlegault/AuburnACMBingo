@@ -16,7 +16,13 @@
 	border-top: 0px;
 	padding-top: 25px;
 }
-.row{
+table {
+   width: 100%;
+}
+tbody {
+   width: 100%;
+}
+tr {
 	display: block;
 	height: 133;
 	width: 725px;
@@ -25,7 +31,7 @@
 	margin-bottom: 0px;
 	margin-top: 10px;
 }
-.box {
+th {
 	display:inline-block;
 	border:solid 2px;
 	width: 135px;
@@ -33,9 +39,4 @@
 	margin:auto;
 	vertical-align:middle;
 	font-size: 20px;
-}
-#box22 {
-	background-color:#F0522C;
-	line-height: 130px;
-	vertical-align:middle;
 }
